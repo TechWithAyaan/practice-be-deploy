@@ -1,6 +1,6 @@
 import express from 'express'
-import userRoutes from './routes/userRoutes.js'
-import authRoutes from './routes/authRoutes.js'
+import userRoutes from 'src/routes/userRoutes.js'
+import authRoutes from 'src/routes/authRoutes.js'
 import dns from "node:dns"
 // import { errorMiddlware } from './middleware/errorMiddleware.js'
 

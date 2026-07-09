@@ -1,5 +1,5 @@
-import app from "./src/main.js";
-import connectDb from "./src/config/db.js";
+import app from "src/main.js";
+import connectDb from "src/config/db.js";
 import dotenv from "dotenv";
 import dns from "node:dns";
 
