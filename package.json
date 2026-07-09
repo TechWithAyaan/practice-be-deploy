@@ -5,22 +5,23 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon ./backhend/server.js",
-    "start": "node ./backhend/server.js"
+    "start:dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "type":"module",  
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.6",
-    "dns": "^0.2.2",
+    "bcrypt": "^5.1.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "i": "^0.3.7",
-    "mongodb": "^7.4.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^9.7.3",
-    "nodemon": "^3.1.14",
-    "npm": "^11.18.0"
+    "nodemailer": "^6.9.7",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }

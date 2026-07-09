@@ -1,9 +1,9 @@
-import { errorResponse, successResponse } from "src/responseHandlers/responseHandler.js"
-import User from "src/models/Schema.js";
+import { errorResponse, successResponse } from "../responseHandlers/responseHandler.js"
+import User from "../models/Schema.js";
 import bcrypt from "bcrypt"
 import { v4 as uuidv4 } from 'uuid';
 import jwt from "jsonwebtoken"
-import { sendEmailOTP } from "src/utils/SendEmail.js";
+import { sendEmailOTP } from "../utils/SendEmail.js";
 
 const signup = async (req,res) =>{
 try{

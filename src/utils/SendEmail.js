@@ -1,11 +1,5 @@
 import nodemailer from 'nodemailer';
 
-import dotenv from "dotenv";
-
-dotenv.config({ path: "./backhend/.env" });
-
-import "../main.js";
-
 
 
 console.log(process.env.PORTAL_EMAIL);

@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import User from "src/models/Schema.js";
+import User from "../models/Schema.js";
 
 const updateUser = async (req, res) => {
         let token = req.headers.authorization;
