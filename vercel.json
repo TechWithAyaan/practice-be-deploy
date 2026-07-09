@@ -1,13 +1,9 @@
 {
   "version": 2,
-  "buildCommand": "npm install",
-  "env": {
-    "NODE_ENV": "production"
-  },
   "builds": [
     {
       "src": "server.js",
-      "use": "@vercel/node@3.0.0"
+      "use": "@vercel/node"
     }
   ],
   "routes": [
